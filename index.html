@@ -21,42 +21,33 @@
 
       <!--Хедер-->
 
-     <header class="section page-header">
-        <div class="container header-container">
-                <nav>
-                  <h2 class= "logo-tittle" >
-                     <a href="#" class="logo" lang="en"
-                       ><span class="logo-part">Web</span>Studio</a>
-                             
-                  </h2>
-                  <ul class="site-nav list">
-                     <li><a href="#" class="link current">Студия</a></li>
-                     <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-                     <li><a href="#" class="link">Контакты</a></li>
-                  </ul>
-                </nav>
-
-                <ul class="contacts list">
-                    <li>
-                       <a href="#" lang="en" class="contacts-link"
-                       ><img
-                           src="./images/others/iconpost.svg"
-                           alt="иконка почты"
-                         />info@devstudio.com</a>
-                
-                    </li>
-                    <li>
-                      <a href="#" class="contacts-link"
-                      ><img
-                      src="./images/others/smartphone.svg"
-                      alt="иконка телефона"
-                     />+38 096 111 11 11</a>
-                   </li>  
-                </ul>
-        </div>
+    <header class="page-header">
+      <div class="container header-container">
+        <nav class="header-item">
+          <a href="./index.html" class="logo" lang="en">Web<span class="logo-part">Studio</span></a>
+          <ul class="site-nav list">
+            <li class="nav-item">
+              <a href="#" class="link current">Студия</a>
+            </li>
+            <li class="nav-item">
+              <a href="./portfolio.html" class="link">Портфолио</a>
+            </li>
+            <li class="nav-item"><a href="#" class="link">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="head-contacts list">
+          <li class="connect">
+            <a href="#" lang="en" class="contacts-link"><img class="icon-contact" src="./images/others/iconpost.svg"
+                alt="иконка почты" />info@devstudio.com</a>
+          </li>
+          <li class="connect">
+            <a href="#" class="contacts-link"><img class="icon-contact" src="./images/others/smartphone.svg"
+                alt="иконка телефона" />+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
     </header>
     
-
     <main>
       <!--Герой-->
       
@@ -173,11 +164,8 @@
       <section class="section worker-container">
         <div class="container employ">
           <h2 class="section-title">Наша команда</h2>
-
-          
           <ul class="person list">
             <!--Джон-->
-
             <div class="person-item worker-item">
               <li>
                 <img src="./images/co-worker/John.png" class="foto-worker" alt="фото Джона" width="278" height="260" />
@@ -205,11 +193,10 @@
                     </li>
                   </ul>
                 </div>
-                
               </li>
             </div>
             
-          
+      
             <!--Марта-->
 
             <div class="person-item worker-item">
@@ -346,56 +333,48 @@
     </main>
 
     <!-- Футер-->
-    <footer class="section footer">
-
-      <div class="container footer-cinteiner">
-        <div>
-          <h2 class="logo-tittle">
-            <a href="#" class="logo" lang="en"><span class="logo-part">Web</span>Studio</a>
-          </h2>
-          <address class="addres">
-            <p class="addres-text">г.Киев, пр-т Леси Украинки, 26</p>
-            <ul class="contacts list">
-              <li class="mail">
-                <a href="#" class="contacts-link " lang="en">info@<span class="post">example</span>.com</a>
-              </li>
-              <li class="tel">
-                <a href="#" class="contacts-link " >+38 096 111 11 11</a>
-              </li>
-            </ul>
-          </address>
-        </div>
-        
-        <div class="addding">
-          <b class="addding-text">Присоединяйтесь</b>
-          <ul class="list">
-            <li>
-              <a href="#" aria-label="Cсылка на Instagram">Instagram</a>
-            </li>
-        
-            <li>
-              <a href="#" aria-label="Cсылка на Twitter">Twitter</a>
-            </li>
-            <li>
-              <a href="#" aria-label="Cсылка на Facebook">Facebook</a>
-            </li>
-            <li>
-              <a href="#" aria-label="Cсылка на LinkedIn">LinkedIn</a>
-            </li>
-          </ul>
-        </div>
-        
-        <!--доделать форму-->
-        <div class="discrirtion">
-          <b class="discrirtion-text">Подписаться на рассылку</b>
-          <a href="#" class="button">Подписаться</a>
-        </div>
-        
-        <p class="copiright">2020 | Developed by GoIT Students</p>
-</div>
-
-
-
+    <footer class="footer">
+     <div class="container">
+        <div class="primery-footer">
+          <div class="location">
+            <a href="./index.html" class="logo" lang="en">Web<span class="logo-part-invers">Studio</span></a>
+            <address class="addres">
+              <a href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.4265807,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
+              class="addres-text">г.Киев, пр-т Леси Украинки, 26</a>
+              <a href="#" class="contacts-link contacts-address " lang="en">info@example.com</a>
+              <a href="#" class="tel contacts-link contacts-address ">+38 096 111 11 11</a>
+            </address>
+          </div>
+          <div class="join">
+           <b class="join-text">Присоединяйтесь</b>
+           <ul class="list social-footer">
+             <li class="social-footer-item">
+               <a href="#" class="social-link" aria-label="Cсылка на Instagram">Inst</a>
+             </li>
+    
+             <li class="social-footer-item">
+               <a href="#" class="social-link" aria-label="Cсылка на Twitter">Tw</a>
+             </li>
+             <li class="social-footer-item"> 
+               <a href="#" class="social-link" aria-label="Cсылка на Facebook">Fb</a>
+             </li>
+             <li class="social-footer-item">
+               <a href="#" class="social-link" aria-label="Cсылка на LinkedIn">LiIn</a>
+             </li>
+           </ul>
+          </div>
+    
+           <!--доделать форму-->
+          <div class=" subscribe">
+            <b class="join-text">Подписаться на рассылку</b>
+            <a href="#" class="subscribe-link button">Подписаться</a>
+          </div>
+       </div>
+       <!-- Нижний блок футера -->
+       <p class="copiright">2020 | Developed by GoIT Students</p>
+    </div>
+    
+    
       
     </footer>
   </body>
