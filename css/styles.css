@@ -49,9 +49,9 @@ body {
 
 /*Хедер*/
 .page-header {
-  outline: none;
   padding-top: 0px;
   padding-bottom: 0px;
+  border-bottom: 1px solid #ececec;
 }
 .header-item {
   display: flex;
@@ -74,7 +74,6 @@ body {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
-  /* identical to box height */
   letter-spacing: 0.03em;
   text-decoration: none;
 }
@@ -186,8 +185,7 @@ body {
 }
 
 /* Features */
-.features {
-}
+
 .features-list {
   display: flex;
 }
@@ -259,13 +257,6 @@ body {
 .product-icon {
   display: block;
 }
-.companies {
-  display: flex;
-}
-
-.companies .companies-item:not(:last-child) {
-  margin-right: 30px;
-}
 
 /*Члены команды*/
 /* Co-worker+job title */
@@ -274,6 +265,7 @@ body {
 }
 .worker-item {
   display: block;
+  width: calc((100% - 90px) / 4);
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
@@ -312,8 +304,6 @@ body {
   padding-right: 31px;
   padding-left: 31px;
 }
-.social-item {
-}
 .social-item:not(:last-child) {
   margin-right: 35px;
 }
@@ -327,10 +317,12 @@ body {
 }
 
 /*Клиенты постоянные*/
-.clients {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  background-color: teal;
+.companies {
+  display: flex;
+}
+
+.companies .companies-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 /*Футер*/
@@ -413,7 +405,7 @@ body {
 .copiright {
   margin-top: 0px;
   margin-bottom: 0px;
-  paddinherog-top: 18px;
+  padding-top: 18px;
   padding-bottom: 21px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 
@@ -444,6 +436,15 @@ body {
 }
 
 /* POPRTFOLIO HTML */
+.nav-button {
+  display: flex;
+  margin-bottom: 56px;
+  jastif
+}
+
+.nav-button :not(:last-child) {
+  margin-right: 8px;
+}
 .nav-button .technology {
   padding: 6px 22px;
   min-width: 73px;
@@ -454,7 +455,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
-  /* identical to box height, or 162% */
 }
 .nav-button .technology:hover,
 .nav-button .technology:focus {
@@ -464,20 +464,13 @@ body {
 
 /* Наши работы 0-9 */
 
-.filter {
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
 .item-tech {
   padding-bottom: 30px;
 
   border: 1px solid tomato;
   border-radius: 5px;
 }
-.filter-title {
-  margin-top: 0px;
-  margin-bottom: 10px;
-}
+
 .tech.list a {
   text-decoration: none;
 }
@@ -501,8 +494,4 @@ body {
   font-size: 18px;
   line-height: 1.56;
   /* or 156% */
-}
-.filter-button {
-  margin-top: 0px;
-  margin-bottom: 34px;
 }
